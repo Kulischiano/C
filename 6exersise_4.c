@@ -9,7 +9,7 @@ char operator;
 accumulator = 0.0; 
 operator = 'S'; 
 
-printf("Начало рассчета\n"); 
+printf("Начало расчета\n"); 
 
 while ( true ) 
 { 
@@ -18,7 +18,7 @@ scanf("%f %c", &number, &operator);
 if ( operator == 'E' ) 
 { 
 printf("= %.6f\n", accumulator); 
-printf("Конец рассчетов\n"); 
+printf("Конец расчетов\n"); 
 break; 
 } 
 
