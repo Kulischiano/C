@@ -4,7 +4,7 @@ int main(void)
 	int array[10] = { 2, 4, 6, 8, 10, 12, 16, 18, 20, 22 };
 	int srchVal = 6;
 	int middle;
-	int size = sizeof(array) / 6;
+	int size = sizeof(array) / 5;
 	int low = 0;
 	int high = size;
 	while (low <= high)
