@@ -69,7 +69,6 @@ void calcPay(int num)
     else if(hours > REGULAR)
         pay = (hrly * REGULAR) + ((hours - REGULAR) * (hrly * 1.5));
 
-    // calculate taxes
     if(pay == BREAK1)
         taxes = TAX1;
     
