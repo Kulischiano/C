@@ -6,19 +6,19 @@ int main (void)
 	char input[81], output[81];
 	int c;
 
-	printf("Enter the file name: ");
+	printf("Введите имя исходного файла: ");
 	scanf("%s", input);
 
-	printf("Enter the file name: ");
+	printf("Введите имя выходящего файла: ");
 	scanf("%s", output);
 
 	if ((in = fopen (input, "r")) == NULL) {
-		printf("Unable to open %s\n", input);
+		printf("Невозможно открыть %s\n", input);
 		return 1;
 	}
 
 	if ((out = fopen (output, "w")) == NULL) {
-		printf("Unable to open %s\n", output);
+		printf("Невозможно открыть %s\n", output);
 		return 1;
 	}
 
